@@ -2,10 +2,6 @@ body{
 	font-family: arial;
 }
 
-#hr1{
-	margin-top: 100px;
-}
-
 
 .topleft{
 	margin: 8px;
@@ -15,7 +11,6 @@ body{
 
 .topright{
 	margin: 8px;
-	display: inline-block;
 	float:right;
 }
 
