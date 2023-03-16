@@ -2,19 +2,42 @@ body{
 	font-family: arial;
 }
 
-
 .topleft{
-	margin: 8px;
-	display: inline-block;
+	margin: 6px;
 	float: left;
+	display: inline-block;
 }
 
 .topright{
-	margin: 8px;
+	margin: 6px;
 	float:right;
+	display: inline-block;
 }
 
-.topics{
-	margin-top: 100px;
+a{  
+   padding: 2px;
+   font-size: 16px;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+.border{
+	padding-top: 28px;	
+}
+
+.project{
+	float: left;
+	width: 50%;
 	text-align: center;
+	display: inline-block;
+}
+
+.column{
+	float: right;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
 }
