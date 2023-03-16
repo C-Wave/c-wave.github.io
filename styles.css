@@ -1,5 +1,6 @@
 body{
-	font-family: arial;
+	background-color: rgb(225, 215, 205);
+	font-family: Arial;
 }
 
 .topleft{
@@ -18,24 +19,25 @@ a{
    padding: 2px;
    font-size: 16px;
    text-decoration: none;
+   color: inherit;
 }
 
 a:hover{
    text-decoration: underline;
 }
 
-.border{
+.horizon{
 	padding-top: 28px;	
 }
 
-.project{
+.left{
 	float: left;
 	width: 50%;
 	text-align: center;
 	display: inline-block;
 }
 
-.column{
+.right{
 	float: right;
 	width: 50%;
 	text-align: center;
